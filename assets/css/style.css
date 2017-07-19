@@ -1,0 +1,152 @@
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	box-sizing: border-box;
+	background: url('../images/concrete-texture.png');
+}
+
+header {
+	background: white;
+}
+
+h1 {
+	margin-left: 200px;
+}
+
+h2 {
+	font-family: 'Georgia', Times, 'Times New Roman', serif;
+	font-size:35px;
+	padding-top: 20px;
+}
+
+.header-block{
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#horizontal-line{
+	margin-top: 15px;
+	margin-bottom: 20px;
+	color: grey;
+}
+
+.content-area{
+	width: 906px;
+	border-color: #dddddd;
+	padding: 40px 0px 40px 0px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.main-bio {
+	background: #ffffff;
+	width: 650px;
+	border: grey solid 1px;
+	padding: 10px 33px 20px 33px;
+	margin-bottom: 40px;
+	float: left;
+	clear: right;
+}
+
+.teal-heading-text {
+	color: #4aaaa5;
+	font-size: 32px;
+	padding-top: 10px;
+}
+.Connect-teal-words {
+	color: #4aaaa5;
+}
+
+.header-content {
+	font-family: 'Georgia', Times, 'Times New Roman', serif;
+	background: #ffffff;
+}
+.nav-text {
+	float: right;
+	padding-top: 20px;
+}
+.nav-link {
+	color: grey;
+}
+.nav-about{
+	margin-right: 10px;
+}
+.nav-contact{
+	margin-right: 10px;
+}
+.nav-portfolio{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+li {
+	color: grey;
+	list-style-type: none;
+	display: inline;
+}
+
+.myname{
+	font-family: 'Georgia', Times, 'Times New Roman', serif;
+	font-size:35px;
+	color: white;
+	background: #4aaaa5;
+	padding: 10px 30px 10px 30px;
+	display: inline-block;
+}
+
+.connect-section{
+	box-sizing: border-box;
+	width: 270px
+	border: solid grey 1px;
+	padding: 0px 30px 20px 30px;
+	background: white;
+	float: right;
+}
+
+.connect-icons {
+	width: 80px;
+}
+
+#bio-image{
+	float: left;
+	margin: 0px 20px 20px 0px;
+}
+
+footer {
+	background: #666666;
+	clear:both;
+	margin-top: -90px;
+	border-top: 12px solid #4aaaa5;
+}
+
+#footer-text{
+	color: white;
+	text-align: center;
+	padding-top: 40px;
+	padding-bottom: 40px;
+
+}
+
+.contact-form{
+	background: #ffffff;
+	width: 650px;
+	border: grey solid 1px;
+	padding: 10px 33px 20px 33px;
+	margin-bottom: 40px;
+	float: left;
+	clear: right;
+}
+
+.portfolio-content {
+	background: #ffffff;
+	width: 650px;
+	border: grey solid 1px;
+	padding: 10px 33px 20px 33px;
+	margin-bottom: 40px;
+	float: left;
+	clear: right;
+}

@@ -8,51 +8,56 @@
   <title>Basic-Portfolio</title>
 
 <body>
-
+<!--Nav bar with Name and index, portfolio, and contact-->
   <header>
-
   <div class="header-content">
-    <h1 class="name">Alan Ho</h1>
+    <h1 class="myname">Alan Ho</h1>
     <nav class="nav-text">
     <ul>
-      <li><a href="index.html">About</a></li>
-      <li><a href="portfolio.html">Portfolio</a></li>
-      <li><a href="contact.html">Contact</a></li>
+      <li class="nav-link nav-about"><a href="index.html">About</a></li>
+      <li class="nav-link nav-portfolio"><a href="portfolio.html">Portfolio</a></li>
+      <li class = "nav-link nav-contact"><a href="contact.html">Contact</a></li>
     </ul>
     </nav>
   </div>
-
   </header>
 
+  <hr id="horizontal-line"
+  
+<!--Content area with my picture and blurb about myself-->
   <div class="content-area">
+  <main>
+    <section class="main-bio">
 
-    <section id="main-bio">
+      <h2 class="teal-heading-text"> About Me</h2>
 
-      <h2>About Me</h2>
-
-      <img id="bio-image" src="https://myedu-images-prod01.s3.amazonaws.com/7083382-d111b3f2732171f01208bdb2586e4141-thumb" alt="Alan Ho">
+     <img id="bio-image" src="https://myedu-images-prod01.s3.amazonaws.com/7083382-d111b3f2732171f01208bdb2586e4141-thumb" alt="Alan Ho">
 
       <p>This will be my third year teaching undergraduate courses in psychology at Cleveland State University. Teaching is a rewarding and exciting job. It is always a tremendous feeling when students comes back years later and tells me how they remember my stories from class and how they learned from these stories. To be a part of someone else's success and happiness, no matter how small a part I played, is a great feeling. As your instructor, you have my commitment that I will use my education and my experience as a student to create a learning environment that will allow you to succeed.
-      <br>
-      <br>
 
 	     While you will find me teaching psychology classes during the day, during dinner times, you may find me at the many wonderful restaurants Cleveland has to offer. If you see me, know that you have chosen a wonderful restaurant and feel free to come over and say hi! Besides my love for food, I also enjoy having fun outside whether it is swimming, playing tennis, or going out for a run. </p>
     </section>
-  </div>
+  </main>
 
-  <div class="connect-section">
-    <section id="Connect-with-Me">
+  <!--End right side bio section, move on to right github, linkedin, stackoverflow aside--> 
 
-      <h3>Connect with Me</h3>
+  <aside>
+    <section class="connect-section">
+
+      <h3 class="Connect-teal-words">Connect with Me</h3>
       <hr id="connect-line">
 
         <a href="https://github.com/ayh5"><img src="assets/images/github2-128.png" alt="Github Logo" class="connect-icons"></a>
-        <a href="https://www.linkedin.com/in/alan-ho-94b2348/"><img src="assets/images/square-linkedin-128.png alt="Linkedin Logo" class="connnect-icons"></a>
+        <a href="https://www.linkedin.com/in/alan-ho-94b2348/"><img src="assets/images/square-linkedin-128.png" alt="Linkedin Logo" class="connect-icons"></a>
         <a href="https://stackoverflow.com/"><img src="assets/images/overflow-128.png" alt="stackoverflow logo" class="connect-icons"></a>
-    
     </section>
-  </div> 
+  </aside> 
+  </div>
 
-  <footer id="footer">
+  <!--Start footer here-->
+
+  <footer class="footer">
     <p id="footer-text">&copy; Copyright 2017 Alan Ho</p>
     </footer>
+</body>
+</html>

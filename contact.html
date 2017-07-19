@@ -10,23 +10,23 @@
 <body>
 
   <header>
-
-  <div class="header-content">
-    <h1 class="name">Alan Ho</h1>
+  <div class="header-block">
+    <h1 class="myname">Alan Ho</h1>
     <nav class="nav-text">
     <ul>
-      <li><a href="index.html">About</a></li>
-      <li><a href="portfolio.html">Portfolio</a></li>
-      <li><a href="contact.html">Contact</a></li>
+      <li class="nav-link nav-about"><a href="index.html">About</a></li>
+      <li class="nav-link nav-portfolio"><a href="portfolio.html">Portfolio</a></li>
+      <li class = "nav-link nav-contact"><a href="contact.html">Contact</a></li>
     </ul>
     </nav>
   </div>
-
   </header>
 
-  <div class="content-area">
+  <hr id="horizontal-line">
 
-    <section id="contact-form">
+  <main class="content-area">
+
+    <section class="contact-form">
       <h2>Contact</h2>
 
     <form action="" method="POST" enctype="multipart/form-data">
@@ -39,21 +39,26 @@
     </form>
 
     </section>
-  </div> 
+  </main> 
 
-  <div class="connect-section">
-    <section id="Connect-with-Me">
+<!--Beginning Side Bar-->
+  
+  <aside>
+    <section class="connect-section">
 
-    <h3>Connect with Me</h3>
+      <h3 class="Connect-teal-words">Connect with Me</h3>
       <hr id="connect-line">
 
         <a href="https://github.com/ayh5"><img src="assets/images/github2-128.png" alt="Github Logo" class="connect-icons"></a>
-        <a href="https://www.linkedin.com/in/alan-ho-94b2348/"><img src="assets/images/square-linkedin-128.png" alt="Linkedin Logo" class="connnect-icons"></a>
+        <a href="https://www.linkedin.com/in/alan-ho-94b2348/"><img src="assets/images/square-linkedin-128.png" alt="Linkedin Logo" class="connect-icons"></a>
         <a href="https://stackoverflow.com/"><img src="assets/images/overflow-128.png" alt="stackoverflow logo" class="connect-icons"></a>
     </section>
-  </div>
+  </aside> 
 
+<!--End Side Bar-->
 
-  <footer id="footer">
+ <footer class="footer">
     <p id="footer-text">&copy; Copyright 2017 Alan Ho</p>
     </footer>
+</body>
+</html>
